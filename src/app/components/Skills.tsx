@@ -71,6 +71,7 @@ const Skills = () => {
             {softwareSkillsArray.sort().map((each, index) => {
                 return (
                     <FormControlLabel
+                        key={index}
                         control={
                             <Checkbox checked={skills.each} name={each} onChange={(e) => dispatch(handleSkillsChange({ name: e.target.name, value: e.target.checked }))} />
                         }

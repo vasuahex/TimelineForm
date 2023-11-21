@@ -102,7 +102,6 @@ export default function CustomizedTimeline() {
           </TimelineSeparator>
         </TimelineItem>
         <TimelineItem >
-
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
             align="right"
@@ -110,7 +109,6 @@ export default function CustomizedTimeline() {
             color="text.secondary"
           >
           </TimelineOppositeContent>
-
           <TimelineSeparator>
             <div className='flex flex-row justify-center w-full gap-16 cursor-pointer' onClick={() => {
               formData.universityname != "" && formData.coursename != "" && formData.fieldofstudy != "" && formData.gpa != "" ?

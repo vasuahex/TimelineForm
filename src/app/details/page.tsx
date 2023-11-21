@@ -11,8 +11,6 @@ import { RootState } from '@/redux/store';
 import { handleCase } from '@/redux/features/auth-slice';
 import { useRouter } from 'next/navigation';
 
-
-
 const Details = () => {
     const dispatch = useDispatch()
     const router = useRouter()
